@@ -1,0 +1,2 @@
+@echo off
+docker run --rm -it -v /var/run/docker.sock:/var/run/docker.sock -v /c/Users/admin/Documents/docker-pycharm:/c/Users/admin/Documents/docker-pycharm -w /c/Users/admin/Documents/docker-pycharm dduportal/docker-compose %*
