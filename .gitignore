@@ -1,0 +1,29 @@
+*.pyc
+.idea/
+
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+
+# OS or Editor folders
+.DS_Store
+.cache
+.project
+.settings
+.tmproj
+.directory
+nbproject
+Thumbs.db
+
+__pycache__
+.vagrant
+dist-packages
+python3.4

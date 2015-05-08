@@ -1,0 +1,10 @@
+web:
+    build: .
+    volumes:
+        - .:/src
+        - ./dist-packages:/usr/local/lib/python3.4/dist-packages
+        - ./python3.4:/usr/lib/python3.4
+    ports:
+        - "8080:8080"
+        - "20000:20000"
+    command: python3 app.py
